@@ -1,0 +1,86 @@
+ALUNO: Enok Januário da Rocha
+
+PROFESSOR: Antonio Alfredo Ferreira Loureiro
+
+Bacharelado em Ciência da Computação
+
+
+_________________________________________________________________________________________
+
+	              		INSTRUÇÕES DE EXECUÇÃO 
+
+_________________________________________________________________________________________
+
+
+A pasta contém dois arquivos fonte e cada arquivo contém uma solução para o problema 
+da Espiral Quadrada. O arquivo espiral.c contém a solução cujo nível de complexidade
+é O(n) e o arquivo espiral2.c contém a solução cujo nível de complexidade é O(n^1/2).
+
+
+_________________________________________________________________________________________
+			
+			COMO EXECUTAR AS SOLUÇÕES APRESENTADAS
+_________________________________________________________________________________________
+
+(As seguintes soluções dizem respeito a execução em máquinas com Windows ou Linux):
+
+_________________________________________________________________________________________
+
+		SOLUÇÃO 1 (Complexidade: O(n), Nome do arquivo fonte:espiral.c)
+
+______________________________________Ambiente Linux____________________________________
+
+
+	Primeiramente deve-se abrir o terminal. Para realizar esta ação, basta pressionar 
+as teclas Ctrl+Alt+T. Após o terminal ser aberto, deve-se digitar a seguinte linha de comando:
+
+				 gcc espiral.c -o espiral
+apertar enter e digitar:
+					./prog
+
+apertar enter e em seguida o terminal irá executar o programa e então o usuário deve entrar com 
+um número:
+
+	A entrada deve ser composta de um número inteiro, sendo este maior ou igual a 0.
+A saída será composta de um texto que apresenta as coordenadas do ponto dado com entrada
+no formato (x,y). Por exemplo, caso a entrada seja 0, o programa irá imprimir ao final da 
+saída: (0,0).
+
+______________________________________Ambiente Windows_____________________________________
+
+	A execução do programa em um ambiente Windows pode ser feita através de uma IDE como 
+o Dev C++ ou Code Blocks. No caso do Dev C++ por exemplo (IDE utilizada para desenvolvimento 
+de ambos os códigos), basta abrir o arquivo fonte e apertar a tecla F11. Após ter feito isso, 
+irá abrir uma janela onde o usuário deve entrar com um um número inteiro, sendo este maior ou 
+igual a 0.
+	A saída será composta de um texto que apresenta as coordenadas do ponto dado com entrada
+no formato (x,y). Por exemplo, caso a entrada seja 0, o programa irá imprimir ao final da 
+saída: (0,0).
+
+____________________________________________________________________________________________
+
+		SOLUÇÃO 2 (Complexidade: O(n^1/2), Nome do arquivo fonte:espiral2.c)
+
+______________________________________Ambiente Linux________________________________________
+	
+	Primeiramente deve-se abrir o terminal. Para realizar esta ação, basta pressionar 
+as teclas Ctrl+Alt+T. Após o terminal ser aberto, deve-se digitar a seguinte linha de comando:
+
+				 gcc espiral2.c -o espiral2 -lm
+apertar enter e digitar:
+					./prog
+
+apertar enter e em seguida o terminal irá executar o programa e então o usuário deve entrar com 
+um número:
+
+	A entrada deve ser composta de um número inteiro, sendo este maior ou igual a 0.
+A saída será composta de um texto que apresenta as coordenadas do ponto dado com entrada
+no formato (x,y). Por exemplo, caso a entrada seja 0, o programa irá imprimir ao final da 
+saída: (0,0).
+
+_____________________________________________________________________________________________
+
+                                  FIM DO ARQUIVO LEIAME.TXT
+_____________________________________________________________________________________________
+
+
